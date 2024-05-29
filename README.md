@@ -1,32 +1,30 @@
-Người thực thi bỏ qua Discord Bot
+## Executor Bypass Discord Bot
+Step 1) Installation
+Open your console, navigate to the folder containing the bot files, and execute the following command:
 
-Bước 1) Cài đặt Mở bảng điều khiển của bạn, điều hướng đến thư mục chứa các tệp bot và thực hiện lệnh sau:
+npm install discord.js@13 axios @discordjs/rest
 
-npm cài đặt discord.js@13 axios @discordjs/rest
+npm install discord.js node-fetch@2
 
-npm cài đặt discord.js node-fetch@2
+## Step 2) Token Setup
+Fill in the bot's token: const token = "YOUR_BOT_TOKEN_HERE";
 
-Bước 2) Thiết lập mã thông báo
+## Step 3) Client ID/User ID Setup
+Fill in the bot's client ID or user ID: const clientid = "YOUR_CLIENT_ID_HERE";
 
-Điền mã thông báo của bot: const token = "YOUR_BOT_TOKEN_HERE";
+## Step 4) API Key
+Get An Api Key For Free In https://discord.gg/EXa6pbQCnH And Ask wmnd For Whitelist. After Whitelisted Run /get-api-key In Server For Your Api Key. const apikey = "APIKEYHERE";
 
-Bước 3) Thiết lập ID khách hàng/ID người dùng
+## Step 8) Made By Embed Footer (Optional)
+Change the text displayed in the footer of embed messages: const madeby = "YOUR_NAME";
 
-Điền ID khách hàng hoặc ID người dùng của bot: const clientid = "YOUR_CLIENT_ID_HERE";
+## Step 9) Save and Run
+Save the changes you made to index.js and run the bot:
 
-Bước 4) Khóa API
-Nhận khóa Api miễn phí trong https://discord.gg/EXa6pbQCnH và hỏi wmnd để có danh sách trắng. Sau khi được đưa vào danh sách trắng, hãy chạy /get-api-key trong máy chủ để lấy khóa Api của bạn. const apikey = "APIKEYHERE";
+node index.js
 
-Bước 8) Được thực hiện bằng chân trang nhúng (Tùy chọn)
-Thay đổi văn bản hiển thị ở chân trang của tin nhắn nhúng: const madeby = "YOUR_NAME";
+## Step 9) Bot Command
+The command to interact with the bot is /fluxus /delta /hydrogen /vegax.
 
-Bước 9) Lưu và chạy
-Lưu các thay đổi bạn đã thực hiện vào index.js và chạy bot:
-
-nút index.js
-
-Bước 9) Lệnh Bot
-Lệnh tương tác với bot là /fluxus /delta /hydrogen /vegax.
-
-TÍN DỤNG ĐỂ BỎ QUA ĐỂ CÓ API NHANH CHÓNG VÀ MIỄN PHÍ
+## CREDITS TO BYPASSI FOR FAST AND FREE API
 https://discord.gg/UU2Kj7U85w
