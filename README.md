@@ -1,4 +1,5 @@
 Người thực thi bỏ qua Discord Bot
+
 Bước 1) Cài đặt Mở bảng điều khiển của bạn, điều hướng đến thư mục chứa các tệp bot và thực hiện lệnh sau:
 
 npm cài đặt discord.js@13 axios @discordjs/rest
@@ -6,9 +7,11 @@ npm cài đặt discord.js@13 axios @discordjs/rest
 npm cài đặt discord.js node-fetch@2
 
 Bước 2) Thiết lập mã thông báo
+
 Điền mã thông báo của bot: const token = "YOUR_BOT_TOKEN_HERE";
 
 Bước 3) Thiết lập ID khách hàng/ID người dùng
+
 Điền ID khách hàng hoặc ID người dùng của bot: const clientid = "YOUR_CLIENT_ID_HERE";
 
 Bước 4) Khóa API
